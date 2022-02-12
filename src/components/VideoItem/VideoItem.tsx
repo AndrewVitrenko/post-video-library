@@ -2,7 +2,7 @@ import React from 'react';
 import { CardContent, CardMedia, Card, Typography } from '@mui/material';
 import { Video } from './VideoItem.types';
 
-export const VideoItem: React.FC<{ video: Video }> = ({ video }) => {
+const VideoItem: React.FC<{ video: Video }> = ({ video }) => {
   return (
     <Card>
       <CardContent>
@@ -17,3 +17,5 @@ export const VideoItem: React.FC<{ video: Video }> = ({ video }) => {
     </Card>
   );
 };
+
+export default VideoItem;

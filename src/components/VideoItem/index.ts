@@ -1,1 +1,1 @@
-export { VideoItem as default } from './VideoItem';
+export { default } from './VideoItem';

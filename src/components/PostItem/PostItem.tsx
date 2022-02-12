@@ -9,7 +9,7 @@ import {
 } from '@mui/material';
 import { Post } from './PostItem.types';
 
-export const PostItem: React.FC<{ post: Post }> = ({ post }) => {
+const PostItem: React.FC<{ post: Post }> = ({ post }) => {
   return (
     <Card>
       <CardContent>
@@ -48,3 +48,5 @@ export const PostItem: React.FC<{ post: Post }> = ({ post }) => {
     </Card>
   );
 };
+
+export default PostItem;
