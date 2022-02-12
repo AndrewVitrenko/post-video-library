@@ -1,4 +1,1 @@
-import PostItem from './PostItem';
-import VideoItem from './VideoItem';
-
-export { PostItem, VideoItem };
+export { default as PostItem } from './PostItem';
