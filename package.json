@@ -1,5 +1,8 @@
 {
-  "name": "post-and-video",
+  "name": "@AndrewVitrenko/post-video-library",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/AndrewVitrenko"
+  },
   "version": "1.0.0",
   "description": "",
   "keywords": [],
