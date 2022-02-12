@@ -1,0 +1,1 @@
+export { VideoItem as default } from './VideoItem';
